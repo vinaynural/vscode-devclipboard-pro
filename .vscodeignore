@@ -1,0 +1,16 @@
+.vscode/**
+.vscode-test/**
+scripts/**
+tests/**
+src/**
+webview-ui/**
+tsconfig.json
+tsconfig.webview.json
+.eslintrc.json
+.prettierrc
+**/*.map
+node_modules/**
+!dist/**
+!package.json
+!README.md
+!LICENSE

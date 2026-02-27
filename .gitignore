@@ -1,0 +1,15 @@
+node_modules/
+dist/
+out/
+*.vsix
+.DS_Store
+.vscode-test/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.eslintcache
+
+# Webview build artifacts
+webview-ui/dist/
+webview-ui/node_modules/
