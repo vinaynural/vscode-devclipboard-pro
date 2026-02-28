@@ -118,6 +118,7 @@
     "vscode:prepublish": "npm run build:prod",
     "build": "tsx ./scripts/build.ts",
     "build:prod": "tsx ./scripts/build.ts --production",
+    "package:vsix": "npx @vscode/vsce package",
     "watch": "tsx ./scripts/build.ts --watch",
     "test:unit": "vitest run tests/unit",
     "test:integration": "node ./node_modules/@vscode/test-electron/bin/test",
